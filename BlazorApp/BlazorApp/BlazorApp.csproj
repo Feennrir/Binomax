@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
+    <PackageReference Include="Blazored.Modal" Version="7.1.0" />
+    <PackageReference Include="Blazorise.Bootstrap" Version="1.1.2" />
+    <PackageReference Include="Blazorise.DataGrid" Version="1.1.2" />
+    <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.1.2" />
+  </ItemGroup>
+
+</Project>

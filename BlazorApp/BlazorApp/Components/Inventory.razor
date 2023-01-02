@@ -1,0 +1,48 @@
+﻿@using Model
+
+<CascadingValue Value="@this">
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+
+                <h3>@Localizer["Inventory"]</h3>
+                <div>
+                    <div class="css-grid">
+
+                        @for (int i = 0; i < 18; i++)
+                        {
+                            <InventoryItem Item="InventoryItems[i]" listItem="true" Index="@i" />
+                        }
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-5">
+                <h3>@Localizer["List of Items"]</h3>
+                <input placeholder="Search" @bind-value="SearchValue" aria-label="Search" class="navbar__search-input input_FOTf" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false">
+                <button type="submit" @onclick="handleSubmit">@Localizer["Submit"]</button>
+	            <DataGrid TItem="Item"
+                          Data="@items"
+                          ReadData="@OnReadData"
+                          TotalItems="@totalItem"
+                          PageSize="10"
+                          ShowPager
+                          Responsive>
+                    <DataGridColumn TItem="Item" Field="@nameof(Item.Id)" Caption="Image">
+                        <DisplayTemplate>
+                            @{
+                                ((Item)context).Quantity = 1;
+                            }
+                            <InventoryItem listItem="false" Item="((Item)context)" NoDrop="true" />
+                        </DisplayTemplate>
+                    </DataGridColumn>
+                </DataGrid>
+            </div>
+            <div class="col-12">
+                <div>Actions</div>
+                    <div class="actions" id="actions">
+                </div>
+            </div>
+        </div>
+    </div>
+</CascadingValue>

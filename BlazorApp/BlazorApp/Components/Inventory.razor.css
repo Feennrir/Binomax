@@ -1,0 +1,21 @@
+﻿.css-grid {
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    gap: 10px;
+    display: grid;
+    width: 600px;
+}
+
+
+.css-list {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    gap: 10px;
+    display: grid;
+    width: 400px;
+}
+
+
+.actions {
+    border: 1px solid black;
+    height: 250px;
+    overflow: scroll;
+}

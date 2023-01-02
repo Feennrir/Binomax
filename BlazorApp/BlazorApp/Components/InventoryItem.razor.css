@@ -1,0 +1,18 @@
+﻿.css-grid .item {
+    width: 96px;
+    height: 96px;
+    border: 1px solid;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stackSize {
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.name, .quality {
+    font-size: 15px;
+}

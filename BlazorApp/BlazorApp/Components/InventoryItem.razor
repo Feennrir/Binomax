@@ -1,0 +1,30 @@
+<div class="item d-inline-block d-flex"
+	 ondragover="event.preventDefault();"
+	 draggable="true"
+	 @ondragstart="@OnDragStart"
+	 @ondrop="@OnDrop"
+	 @ondragenter="@OnDragEnter"
+	 @ondragleave="@OnDragLeave">
+
+	@if (Item != null)
+	{
+		if (Item.InInventory)
+		{
+			<div class="text-center align-self-center name">
+				@Item.DisplayName
+			</div>
+			<div class="text-center align-self-center quantity">
+				@Item.Quantity
+			</div>
+			<div class="text-end align-self-end stackSize">
+				@Item.StackSize
+			</div>
+		}
+		else
+		{
+			<img src="data:image/png;base64, @(Item.ImageBase64)" class="img-thumbnail" title="@Item.DisplayName" alt="@Item.DisplayName" style="width: 40px" />
+			@Item.DisplayName <br />
+		}
+
+	}
+</div>

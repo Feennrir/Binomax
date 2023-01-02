@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "displayname": "Bittor",
+    "name": "bittor",
+    "stacksize": 38,
+    "maxdurability": 107,
+    "enchantcategories": [
+      "vanishable",
+      "breakable",
+      "breakable"
+    ],
+    "repairwith": [],
+    "createddate": "2014-02-02",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 2,
+    "displayname": "Koffee",
+    "name": "koffee",
+    "stacksize": 2,
+    "maxdurability": 25,
+    "enchantcategories": [
+      "breakable",
+      "armor_chest",
+      "armor_chest"
+    ],
+    "repairwith": [
+      "birch_planks",
+      "warped_planks"
+    ],
+    "createddate": "2022-09-15",
+    "updateddate": "2015-04-07"
+  },
+  {
+    "id": 3,
+    "displayname": "Confrenzy",
+    "name": "confrenzy",
+    "stacksize": 48,
+    "maxdurability": 76,
+    "enchantcategories": [],
+    "repairwith": [
+      "jungle_planks"
+    ],
+    "createddate": "2015-01-20",
+    "updateddate": "2016-12-31"
+  },
+  {
+    "id": 4,
+    "displayname": "Biospan",
+    "name": "biospan",
+    "stacksize": 2,
+    "maxdurability": 31,
+    "enchantcategories": [],
+    "repairwith": [
+      "dark_oak_planks"
+    ],
+    "createddate": "2019-08-22",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 5,
+    "displayname": "Zoarere",
+    "name": "zoarere",
+    "stacksize": 59,
+    "maxdurability": 15,
+    "enchantcategories": [
+      "digger"
+    ],
+    "repairwith": [
+      "warped_planks"
+    ],
+    "createddate": "2017-10-12",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 6,
+    "displayname": "Webiotic",
+    "name": "webiotic",
+    "stacksize": 56,
+    "maxdurability": 103,
+    "enchantcategories": [],
+    "repairwith": [],
+    "createddate": "2020-04-30",
+    "updateddate": "2014-06-23"
+  },
+  {
+    "id": 7,
+    "displayname": "Isosphere",
+    "name": "isosphere",
+    "stacksize": 8,
+    "maxdurability": 57,
+    "enchantcategories": [
+      "digger",
+      "weapon",
+      "weapon"
+    ],
+    "repairwith": [
+      "acacia_planks"
+    ],
+    "createddate": "2015-09-25",
+    "updateddate": "2018-05-24"
+  },
+  {
+    "id": 8,
+    "displayname": "Decratex",
+    "name": "decratex",
+    "stacksize": 27,
+    "maxdurability": 84,
+    "enchantcategories": [],
+    "repairwith": [
+      "oak_planks"
+    ],
+    "createddate": "2015-08-01",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 9,
+    "displayname": "Lunchpod",
+    "name": "lunchpod",
+    "stacksize": 55,
+    "maxdurability": 48,
+    "enchantcategories": [],
+    "repairwith": [
+      "birch_planks",
+      "dark_oak_planks"
+    ],
+    "createddate": "2021-09-13",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 10,
+    "displayname": "Lumbrex",
+    "name": "lumbrex",
+    "stacksize": 27,
+    "maxdurability": 3,
+    "enchantcategories": [],
+    "repairwith": [],
+    "createddate": "2015-07-27",
+    "updateddate": "2020-05-01"
+  },
+  {
+    "id": 11,
+    "displayname": "Eclipto",
+    "name": "eclipto",
+    "stacksize": 1,
+    "maxdurability": 69,
+    "enchantcategories": [],
+    "repairwith": [],
+    "createddate": "2020-11-16",
+    "updateddate": "2019-08-21"
+  },
+  {
+    "id": 12,
+    "displayname": "Panzent",
+    "name": "panzent",
+    "stacksize": 34,
+    "maxdurability": 44,
+    "enchantcategories": [],
+    "repairwith": [],
+    "createddate": "2018-09-24",
+    "updateddate": "2020-08-23"
+  },
+  {
+    "id": 13,
+    "displayname": "Zentry",
+    "name": "zentry",
+    "stacksize": 53,
+    "maxdurability": 21,
+    "enchantcategories": [
+      "weapon",
+      "weapon"
+    ],
+    "repairwith": [
+      "birch_planks"
+    ],
+    "createddate": "2019-12-25",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 14,
+    "displayname": "Empirica",
+    "name": "empirica",
+    "stacksize": 57,
+    "maxdurability": 3,
+    "enchantcategories": [
+      "armor",
+      "vanishable",
+      "armor_chest"
+    ],
+    "repairwith": [
+      "birch_planks"
+    ],
+    "createddate": "2016-03-24",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 15,
+    "displayname": "Gluid",
+    "name": "gluid",
+    "stacksize": 47,
+    "maxdurability": 15,
+    "enchantcategories": [
+      "armor",
+      "digger",
+      "digger"
+    ],
+    "repairwith": [
+      "warped_planks",
+      "crimson_planks"
+    ],
+    "createddate": "2020-12-16",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 16,
+    "displayname": "Parcoe",
+    "name": "parcoe",
+    "stacksize": 31,
+    "maxdurability": 93,
+    "enchantcategories": [
+      "digger",
+      "breakable"
+    ],
+    "repairwith": [],
+    "createddate": "2017-03-09",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 17,
+    "displayname": "Paragonia",
+    "name": "paragonia",
+    "stacksize": 60,
+    "maxdurability": 33,
+    "enchantcategories": [
+      "weapon",
+      "breakable",
+      "weapon"
+    ],
+    "repairwith": [
+      "dark_oak_planks"
+    ],
+    "createddate": "2016-11-19",
+    "updateddate": "2019-08-20"
+  },
+  {
+    "id": 18,
+    "displayname": "Opticom",
+    "name": "opticom",
+    "stacksize": 37,
+    "maxdurability": 56,
+    "enchantcategories": [],
+    "repairwith": [],
+    "createddate": "2014-09-03",
+    "updateddate": "2014-05-09"
+  },
+  {
+    "id": 19,
+    "displayname": "Bicol",
+    "name": "bicol",
+    "stacksize": 41,
+    "maxdurability": 117,
+    "enchantcategories": [
+      "armor",
+      "digger"
+    ],
+    "repairwith": [
+      "spruce_planks"
+    ],
+    "createddate": "2020-12-06",
+    "updateddate": "2020-08-10"
+  },
+  {
+    "id": 20,
+    "displayname": "Centice",
+    "name": "centice",
+    "stacksize": 41,
+    "maxdurability": 65,
+    "enchantcategories": [],
+    "repairwith": [
+      "warped_planks",
+      "oak_planks"
+    ],
+    "createddate": "2022-08-01",
+    "updateddate": "2014-05-11"
+  },
+  {
+    "id": 21,
+    "displayname": "Comtext",
+    "name": "comtext",
+    "stacksize": 22,
+    "maxdurability": 32,
+    "enchantcategories": [
+      "digger",
+      "weapon"
+    ],
+    "repairwith": [
+      "jungle_planks"
+    ],
+    "createddate": "2015-09-28",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 22,
+    "displayname": "Ezentia",
+    "name": "ezentia",
+    "stacksize": 60,
+    "maxdurability": 78,
+    "enchantcategories": [
+      "vanishable",
+      "armor"
+    ],
+    "repairwith": [],
+    "createddate": "2019-06-03",
+    "updateddate": "2020-05-17"
+  },
+  {
+    "id": 23,
+    "displayname": "Buzzopia",
+    "name": "buzzopia",
+    "stacksize": 10,
+    "maxdurability": 29,
+    "enchantcategories": [
+      "breakable",
+      "vanishable",
+      "digger"
+    ],
+    "repairwith": [],
+    "createddate": "2015-07-04",
+    "updateddate": "2021-12-29"
+  },
+  {
+    "id": 24,
+    "displayname": "Isoplex",
+    "name": "isoplex",
+    "stacksize": 50,
+    "maxdurability": 116,
+    "enchantcategories": [],
+    "repairwith": [
+      "jungle_planks",
+      "oak_planks"
+    ],
+    "createddate": "2015-11-06",
+    "updateddate": "2019-12-12"
+  }
+]
